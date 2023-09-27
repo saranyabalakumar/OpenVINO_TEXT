@@ -298,7 +298,7 @@ corrected_text = correct_text(default_text, grammar_checker_pipe, grammar_correc
 print(f"input text:     {default_text}\n") 
 print(f'generated text: {corrected_text}') 
 
-
+"""
 # ## Interactive demo
 
 # In[ ]:
@@ -325,4 +325,4 @@ except Exception:
 # if you are launching remotely, specify server_name and server_port
 # demo.launch(server_name='your server name', server_port='server port in int')
 # Read more in the docs: https://gradio.app/docs/
-
+"""
