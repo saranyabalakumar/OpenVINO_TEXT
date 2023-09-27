@@ -5,12 +5,14 @@
 
 
 # get_ipython().system('pip install transformers')
+"""
 import subprocess
 
 try:
     subprocess.run(['pip', 'install', 'transformers'], check=True)
 except subprocess.CalledProcessError as e:
     print(f"Error installing 'transformers': {e}")
+"""
 
 # # Create an LLM-powered Chatbot using OpenVINO
 # 
@@ -47,7 +49,7 @@ except subprocess.CalledProcessError as e:
 
 # In[2]:
 
-
+"""
 # get_ipython().run_line_magic('pip', 'install -q "git+https://github.com/huggingface/optimum-intel.git"')
 # get_ipython().run_line_magic('pip', 'install -q "nncf>=2.6.0"')
 # get_ipython().run_line_magic('pip', 'install -q "gradio"')
@@ -66,6 +68,7 @@ libraries_to_install = [
     'openvino>=2023.1.0',
 ]
 
+
 # Install libraries using subprocess
 for library in libraries_to_install:
     try:
@@ -78,6 +81,7 @@ try:
     subprocess.run(['pip', 'install', 'transformers'], check=True)
 except subprocess.CalledProcessError as e:
     print(f"Error installing 'transformers': {e}")
+"""   
 
 # ## Select model for inference [$\uparrow$](#Table-of-content:)
 # 

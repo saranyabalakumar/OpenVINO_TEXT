@@ -54,7 +54,7 @@
 
 # In[1]:
 
-
+"""
 # # Install Gradio for Interactive Inference and other requirements
 # get_ipython().run_line_magic('pip', 'install -q "openvino>=2023.1.0"')
 # get_ipython().run_line_magic('pip', 'install -q gradio')
@@ -78,7 +78,7 @@ try:
     subprocess.run(['pip', 'install', 'transformers[torch]'], check=True)
 except subprocess.CalledProcessError as e:
     print("Error installing the 'transformers[torch]' package:", e)
-
+"""
 
 
 # In[2]:

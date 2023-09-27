@@ -1,0 +1,6 @@
+requests
+pysbd
+transformers[torch]
+openvino>=2023.1.0
+seaborn
+ipywidgets

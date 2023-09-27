@@ -38,7 +38,7 @@
 
 # In[1]:
 
-
+"""
 # get_ipython().system('pip install -q requests pysbd transformers[torch] "openvino>=2023.1.0" seaborn ipywidgets')
 import subprocess
 
@@ -46,6 +46,7 @@ try:
     subprocess.run(['pip', 'install', '-q', 'requests', 'pysbd', 'transformers[torch]', 'openvino>=2023.1.0', 'seaborn', 'ipywidgets'], check=True)
 except subprocess.CalledProcessError as e:
     print(f"Error installing packages: {e}")
+"""
 
 # ## Get Books [$\Uparrow$](#Table-of-content:)
 # 

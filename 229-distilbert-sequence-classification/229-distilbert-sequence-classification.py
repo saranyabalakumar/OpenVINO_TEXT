@@ -21,7 +21,7 @@
 
 # In[1]:
 
-
+"""
 # get_ipython().run_line_magic('pip', 'install "openvino>=2023.1.0"')
 import subprocess
 
@@ -30,6 +30,7 @@ try:
     subprocess.run(['pip', 'install', 'openvino>=2023.1.0'], check=True)
 except subprocess.CalledProcessError as e:
     print("Error installing the 'openvino' package:", e)
+"""
 
 # In[2]:
 

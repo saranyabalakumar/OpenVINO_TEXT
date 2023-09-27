@@ -55,8 +55,8 @@
 
 # In[1]:
 
+"""
 # get_ipython().run_line_magic('pip', 'install -q "git+https://github.com/huggingface/optimum-intel.git" "openvino>=2023.1.0" onnx onnxruntime gradio')
-import subprocess
 
 # Use subprocess to run the pip install command
 import subprocess
@@ -66,6 +66,7 @@ try:
     subprocess.run(['pip', 'install', 'git+https://github.com/huggingface/optimum-intel.git', 'openvino>=2023.1.0', 'onnx', 'onnxruntime', 'gradio'], check=True)
 except subprocess.CalledProcessError as e:
     print("Error installing the 'openvino' package:", e)
+"""
 
 # ## Download and Convert Models [$\Uparrow$](#Table-of-content:)
 # 

@@ -23,7 +23,7 @@
 
 # In[1]:
 
-
+"""
 # get_ipython().run_line_magic('pip', 'install -q "openvino>=2023.1.0"')
 import subprocess
 
@@ -32,6 +32,7 @@ try:
     subprocess.run(['pip', 'install', '-q', 'openvino>=2023.1.0'], check=True)
 except subprocess.CalledProcessError as e:
     print("Error installing the 'openvino' package:", e)
+"""
 
 # In[2]:
 
@@ -46,6 +47,7 @@ import openvino as ov
 
 import html_reader as reader
 import tokens_bert as tokens
+"""
 # get_ipython().system('python -m pip install tqdm')
 # get_ipython().system('python -m pip install ipywidgets')
 # Use subprocess to run pip install command for tqdm
@@ -59,6 +61,7 @@ try:
     subprocess.run(['python', '-m', 'pip', 'install', 'ipywidgets'], check=True)
 except subprocess.CalledProcessError as e:
     print("Error installing the 'ipywidgets' package:", e)
+"""
 
 # Fetch `notebook_utils` module
 import urllib.request
