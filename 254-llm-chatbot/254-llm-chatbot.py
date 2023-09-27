@@ -517,7 +517,7 @@ input_tokens = tok(test_string, return_tensors="pt", **tokenizer_kwargs)
 answer = ov_model.generate(**input_tokens, max_new_tokens=2)
 print(tok.batch_decode(answer)[0])
 
-
+"""
 # ## Run Chatbot [$\uparrow$](#Table-of-content:)
 # 
 # Now, when model created, we can setup Chatbot interface using [Gradio](https://www.gradio.app/).
@@ -861,4 +861,4 @@ demo.launch()
 
 # please run this cell for stopping gradio interface
 demo.close()
-
+"""
